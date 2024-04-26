@@ -8,7 +8,7 @@
 import SwiftUI
 
 enum ShapeType : String {
-    case circle = "Circle"
+    case circle = "circle"
     case rectangle = "Rectangle"
     case capsule = "Capsule"
     case ellipse = "Ellipse"
