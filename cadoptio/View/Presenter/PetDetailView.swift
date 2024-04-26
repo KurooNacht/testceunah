@@ -79,7 +79,7 @@ struct PetOwnerView: View {
                 Image(systemName: "person.circle.fill")
                     .resizable()
                     .frame(width: 50, height: 50)
-                    .padding(20)
+                    .padding()
                 VStack(alignment: .leading){
                     Text("Owned by")
                         .foregroundStyle(.gray)
